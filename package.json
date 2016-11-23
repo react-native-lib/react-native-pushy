@@ -1,31 +1,60 @@
 {
-  "name": "react-native-update",
-  "version": "3.0.2",
-  "description": "react-native hot update",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "node_modules/.bin/babel local-cli/src --out-dir local-cli/lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/reactnativecn/react-native-pushy.git"
-  },
-  "keywords": [
-    "react-native",
-    "ios",
-    "android",
-    "update"
+  "_args": [
+    [
+      {
+        "raw": "react-native-update@latest",
+        "scope": null,
+        "escapedName": "react-native-update",
+        "name": "react-native-update",
+        "rawSpec": "latest",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/joshua/vanke/newwork"
+    ]
   ],
-  "author": "reactnativecn",
-  "license": "BSD-3-Clause",
+  "_cnpm_publish_time": 1478581193661,
+  "_from": "react-native-update@latest",
+  "_id": "react-native-update@3.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-update",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-update-3.0.3.tgz_1478581191653_0.06585088022984564"
+  },
+  "_npmUser": {
+    "name": "tdzl2003",
+    "email": "tdzl2003@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {
+    "fd-slicer": "1.0.1"
+  },
+  "_requested": {
+    "raw": "react-native-update@latest",
+    "scope": null,
+    "escapedName": "react-native-update",
+    "name": "react-native-update",
+    "rawSpec": "latest",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-update/download/react-native-update-3.0.3.tgz",
+  "_shasum": "9e3b7a0e6b57c8d45ff37676f5d2077fbc51bdcd",
+  "_shrinkwrap": null,
+  "_spec": "react-native-update@latest",
+  "_where": "/Users/joshua/vanke/newwork",
+  "author": {
+    "name": "reactnativecn"
+  },
   "bugs": {
     "url": "https://github.com/reactnativecn/react-native-pushy/issues"
   },
-  "peerDependencies": {
-    "react-native": ">=0.27.0"
-  },
-  "homepage": "https://github.com/reactnativecn/react-native-pushy#readme",
   "dependencies": {
     "cli-arguments": "^0.2.1",
     "fs-promise": "^0.4.1",
@@ -40,6 +69,7 @@
     "yauzl": "2.4.1",
     "yazl": "2.3.0"
   },
+  "description": "react-native hot update",
   "devDependencies": {
     "babel-cli": "^6.5.1",
     "babel-eslint": "^4.1.6",
@@ -53,5 +83,48 @@
     "babel-plugin-transform-es2015-spread": "^6.5.2",
     "babel-plugin-transform-object-rest-spread": "^6.5.0",
     "babel-plugin-transform-strict-mode": "^6.5.2"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9e3b7a0e6b57c8d45ff37676f5d2077fbc51bdcd",
+    "size": 207181,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/react-native-update/download/react-native-update-3.0.3.tgz"
+  },
+  "gitHead": "f9f803fa8acaaacfb1cc336f1dd970d3d8591853",
+  "homepage": "https://github.com/reactnativecn/react-native-pushy#readme",
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "update"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "lvbingru",
+      "email": "lvbingru@gmail.com"
+    },
+    {
+      "name": "tdzl2003",
+      "email": "tdzl2003@gmail.com"
+    }
+  ],
+  "name": "react-native-update",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.27.0"
+  },
+  "publish_time": 1478581193661,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactnativecn/react-native-pushy.git"
+  },
+  "scripts": {
+    "prepublish": "babel local-cli/src --out-dir local-cli/lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.0.3"
 }
