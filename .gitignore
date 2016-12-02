@@ -1,8 +1,6 @@
 /.idea
 /node_modules
-/local-cli/lib
 /react-native-pushy-cli/node_modules
-/react-native-pushy-cli/lib
 /android/build
 *.iml
 
