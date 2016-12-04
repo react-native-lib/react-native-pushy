@@ -1,5 +1,5 @@
 # react-native-update
-
+test yarn
 本组件是面向React Native提供热更新功能的组件，建议结合[Update服务](http://update.reactnative.cn/)使用。
 
 ### 版本
