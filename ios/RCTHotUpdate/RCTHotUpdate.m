@@ -8,10 +8,10 @@
 
 #import "RCTHotUpdate.h"
 #import "RCTHotUpdateDownloader.h"
-#import "RCTEventDispatcher.h"
-#import "RCTConvert.h"
+#import <React/RCTEventDispatcher.h>
+#import <React/RCTConvert.h>
 #import "RCTHotUpdateManager.h"
-#import "RCTLog.h"
+#import <React/RCTLog.h>
 
 //
 static NSString *const keyUpdateInfo = @"REACTNATIVECN_HOTUPDATE_INFO_KEY";
