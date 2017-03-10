@@ -1,6 +1,6 @@
 {
   "name": "react-native-vk-update",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "description": "react-native hot update",
   "main": "lib/index.js",
   "scripts": {
